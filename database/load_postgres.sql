@@ -1,0 +1,8 @@
+\copy raw.clients FROM '{{DATA_DIR}}/clients.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.products FROM '{{DATA_DIR}}/products.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.transactions FROM '{{DATA_DIR}}/transactions.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.app_events FROM '{{DATA_DIR}}/app_events.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.support_tickets FROM '{{DATA_DIR}}/support_tickets.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.marketing_contacts FROM '{{DATA_DIR}}/marketing_contacts.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.customer_value_monthly FROM '{{DATA_DIR}}/customer_value_monthly.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy raw.macro_calendar FROM '{{DATA_DIR}}/macro_calendar.csv' WITH (FORMAT csv, HEADER true, NULL '')

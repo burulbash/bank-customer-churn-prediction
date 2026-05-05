@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated full data
+data/raw/
+data/processed/
+
+# Keep small sample data
+!data/sample/
+!data/sample/*.csv
+
+# Model artifacts
+outputs/models/
+*.joblib
+*.pkl
+
+# Local PostgreSQL loading scripts
+database/load_postgres_local.sql
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Secrets
+.env
+
+# Large row-level generated reports
+outputs/reports/test_predictions.csv
+outputs/reports/customer_level_churn_segments.csv
