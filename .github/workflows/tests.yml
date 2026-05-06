@@ -25,3 +25,6 @@ jobs:
 
       - name: compile python files
         run: python -m compileall src database
+
+      - name: run sample training
+        run: python src/train_churn.py --source csv --csv-path data/sample/churn_feature_table_sample.csv
