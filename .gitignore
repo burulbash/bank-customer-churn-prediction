@@ -47,3 +47,11 @@ Thumbs.db
 # Large row-level generated reports
 outputs/reports/test_predictions.csv
 outputs/reports/customer_level_churn_segments.csv
+
+# Test/cache files
+.pytest_cache/
+
+# Local temporary files
+local_context/
+*_context.zip
+*_share/
