@@ -1,6 +1,6 @@
 # Bank Customer Churn Prediction
 
-Simple project about bank customer churn.
+Applied ML project for bank customer churn prediction using synthetic banking data.
 
 The project predicts which bank clients may leave soon. Then it splits them into risk groups and gives simple retention ideas.
 
@@ -67,13 +67,13 @@ pip install -r requirements.txt
 Train model:
 
 ```bash
-python src/train_churn.py --source csv --make-plots
+python src/train_churn.py --source csv --csv-path data/sample/churn_feature_table_sample.csv --make-plots
 ```
 
 Run segmentation:
 
 ```bash
-python src/run_segmentation.py
+python src/run_segmentation.py --source csv --csv-path data/sample/churn_feature_table_sample.csv
 ```
 
 Create A/B test plan:
@@ -85,7 +85,7 @@ python src/run_ab_test_design.py
 Run PSI monitoring:
 
 ```bash
-python src/run_monitoring_psi.py --make-plots
+python src/run_monitoring_psi.py --source csv --csv-path data/sample/churn_feature_table_sample.csv --make-plots
 ```
 
 ## Outputs
@@ -98,35 +98,41 @@ outputs/reports/
 outputs/plots/
 ```
 
+## Tests
+
+```bash
+pytest
+```
+
 ---
 
 # Прогноз оттока клиентов банка
 
-Простой проект про отток клиентов банка.
+Проект по прогнозированию оттока клиентов банка на синтетических банковских данных.
 
 Проект предсказывает, какие клиенты могут скоро уйти. Потом он делит клиентов по уровню риска и предлагает простые идеи для удержания.
 
 ## Что есть в проекте
 
-- SQL-скрипты для подготовки данных
-- Python-скрипты для обучения моделей
-- прогноз оттока
-- сегментация по риску
-- простые действия для удержания
-- план A/B теста
-- PSI-мониторинг
-- отчеты и графики
-- простые тесты
+* SQL-скрипты для подготовки данных
+* Python-скрипты для обучения моделей
+* прогноз оттока
+* сегментация по риску
+* простые действия для удержания
+* план A/B теста
+* PSI-мониторинг
+* отчеты и графики
+* простые тесты
 
 ## Технологии
 
-- Python
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- PostgreSQL / SQL
-- pytest
+* Python
+* pandas
+* numpy
+* scikit-learn
+* matplotlib
+* PostgreSQL / SQL
+* pytest
 
 ## Структура проекта
 
@@ -169,13 +175,13 @@ pip install -r requirements.txt
 Обучение модели:
 
 ```bash
-python src/train_churn.py --source csv --make-plots
+python src/train_churn.py --source csv --csv-path data/sample/churn_feature_table_sample.csv --make-plots
 ```
 
 Сегментация:
 
 ```bash
-python src/run_segmentation.py
+python src/run_segmentation.py --source csv --csv-path data/sample/churn_feature_table_sample.csv
 ```
 
 A/B тест:
@@ -187,7 +193,7 @@ python src/run_ab_test_design.py
 PSI-мониторинг:
 
 ```bash
-python src/run_monitoring_psi.py --make-plots
+python src/run_monitoring_psi.py --source csv --csv-path data/sample/churn_feature_table_sample.csv --make-plots
 ```
 
 ## Результаты
@@ -198,4 +204,10 @@ outputs/reports/
 
 ```text
 outputs/plots/
+```
+
+## Тесты
+
+```bash
+pytest
 ```
