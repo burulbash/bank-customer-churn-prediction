@@ -1,7 +1,7 @@
 business_segment,recommended_action,customers,actual_churn_rate,avg_churn_score,avg_net_value_3m
-low_value_high_risk,Low-cost automated SMS or push retention campaign,14167,0.34559186842662526,0.328519122210238,178.9126441730783
-low_product_engagement,Automated cross-sell / product education campaign,7641,0.25873576756968986,0.2501035151442048,2430.551115037299
-complaint_driven_churn,Service recovery and priority support follow-up,2958,0.1910074374577417,0.18700283864168935,3506.4679141311694
-digital_drop_off,Push campaign with cashback for app activity,11149,0.11705085657906539,0.1081362937667589,5325.741323885551
-high_value_high_risk,Personal manager call with tailored retention offer,3882,0.05795981452859351,0.06227262826576614,21326.068495620817
-standard_monitoring,No immediate retention action,79834,0.009394493574166395,0.00892110162189625,9458.284749229651
+low_value_high_risk,Low-cost automated SMS or push retention campaign,14167,0.34559186842662526,0.32852230975926844,178.9126441730783
+low_product_engagement,Automated cross-sell / product education campaign,7641,0.25873576756968986,0.2501047337887043,2430.551115037299
+complaint_driven_churn,Service recovery and priority support follow-up,2958,0.1910074374577417,0.18700337533592185,3506.4679141311694
+digital_drop_off,Push campaign with cashback for app activity,11149,0.11705085657906539,0.10813772757938196,5325.741323885551
+high_value_high_risk,Personal manager call with tailored retention offer,3882,0.05795981452859351,0.062273256226572433,21326.068495620817
+standard_monitoring,No immediate retention action,79834,0.009394493574166395,0.008920922886803493,9458.284749229651

@@ -1,2 +1,2 @@
 best_model,selection_metric,valid_roc_auc
-logistic_regression,valid_roc_auc,0.9532155839640328
+logistic_regression,valid_roc_auc,0.9532153724795477
