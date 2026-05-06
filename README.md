@@ -1,12 +1,8 @@
 # Bank Customer Churn Prediction
 
-## English
-
 Simple project about bank customer churn.
 
-The project predicts which bank clients may leave soon.
-Then it splits them into risk groups and gives simple retention ideas.
-
+The project predicts which bank clients may leave soon. Then it splits them into risk groups and gives simple retention ideas.
 
 ## What is inside
 
@@ -29,7 +25,6 @@ Then it splits them into risk groups and gives simple retention ideas.
 - matplotlib
 - PostgreSQL / SQL
 - pytest
-
 
 ## Project structure
 
@@ -95,7 +90,6 @@ python src/run_monitoring_psi.py --make-plots
 
 ## Outputs
 
-
 ```text
 outputs/reports/
 ```
@@ -104,22 +98,13 @@ outputs/reports/
 outputs/plots/
 ```
 
-## Tests
-
-```bash
-pytest
-```
-
-
 ---
 
 # Прогноз оттока клиентов банка
 
 Простой проект про отток клиентов банка.
 
-Проект предсказывает, какие клиенты могут скоро уйти.
-Потом он делит клиентов по уровню риска и предлагает простые идеи для удержания.
-
+Проект предсказывает, какие клиенты могут скоро уйти. Потом он делит клиентов по уровню риска и предлагает простые идеи для удержания.
 
 ## Что есть в проекте
 
@@ -142,7 +127,6 @@ pytest
 - matplotlib
 - PostgreSQL / SQL
 - pytest
-
 
 ## Структура проекта
 
@@ -214,10 +198,4 @@ outputs/reports/
 
 ```text
 outputs/plots/
-```
-
-## Тесты
-
-```bash
-pytest
 ```
